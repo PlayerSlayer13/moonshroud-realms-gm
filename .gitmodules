@@ -1,0 +1,9 @@
+[submodule "themes/hugo-book"]
+	path = themes/hugo-book
+	url = https://github.com/alex-shpak/hugo-book
+[submodule "main-site"]
+	path = main-site
+	url = https://github.com/PlayerSlayer13/moonshroud-realms.git
+[submodule "secrets"]
+	path = secrets
+	url = https://github.com/PlayerSlayer13/moonshroud-realms-secrets.git
