@@ -24,3 +24,7 @@ theme = 'hugo-book'
 [[module.mounts]]
   source = "main-site/static"
   target = "static"
+  
+[[module.mounts]]
+  source = "static"
+  target = "static"
