@@ -1,0 +1,26 @@
+baseURL = 'https://gm.playerslayer.net/'
+languageCode = 'en-us'
+title = 'The Moonshroud Realms — GM Reference'
+theme = 'hugo-book'
+
+[params]
+  BookTheme = 'auto'
+  BookToC = true
+  BookSearch = true
+  BookComments = false
+  BookSection = '*'
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[[module.mounts]]
+  source = "main-site/content"
+  target = "content"
+
+[[module.mounts]]
+  source = "secrets/content"
+  target = "content"
+
+[[module.mounts]]
+  source = "main-site/static"
+  target = "static"
